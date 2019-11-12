@@ -4,12 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Adapter
+namespace Adapter.Models.Interfaces
 {
-    class Program
-    { 
-        static void Main(string[] args)
-        {
-        }
+    interface IDbEntity
+    {
+        int Id { get; set; }
     }
 }
